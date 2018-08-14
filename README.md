@@ -8,6 +8,9 @@
 ## Setup Host
 Update the web.config file "ForwardHost" for your target host.
 
+## Start the Site
+Just hit f5 in visual studio.
+
 ## Setup ngrok
 ngrok ngrok http --host-header="localhost:61179" 61179
 The default port in the project is 61179.
